@@ -44,7 +44,7 @@ for link in finalLinks:
     wordList = wordReg.findall(bodyContent.text.upper())
     print(driver.title)
     print(link.get_attribute('href'))
-    print('---------------------------------------------------------------------------------------------------------')
+    print('-'*105)
     print(f'No. of times : {len(wordList)}')
     print(' ')
     print(' ')
